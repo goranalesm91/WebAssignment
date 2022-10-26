@@ -1,1 +1,46 @@
 /* start your css here */
+/* start your css here */
+body{
+    background-color: black;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.wite-text{
+  color: lightgrey; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    font-style: italic;
+
+}
+.name{
+     height: 7vh;
+    width: 70vw;
+   padding-left:20px;
+    flood-color: black;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.submit{
+    border: 3px solid white;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 55px;
+    font-size: x-large;
+    margin-top: 30px;
+    width: 12vw;
+    
+}
