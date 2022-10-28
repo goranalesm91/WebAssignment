@@ -1,1 +1,24 @@
-/* start your css here */
+*{
+    /* margin:0%; */
+    box-sizing: border-box;
+}
+
+body{
+background-image: url('https://media.istockphoto.com/photos/assorted-candied-berries-dried-fruits-nuts-and-seeds-top-view-healthy-picture-id1370738891?b=1&k=20&m=1370738891&s=170667a&w=0&h=kzrGZXdaZSWCKBK-FHlhtYl6i160Nm_xqKRUtVXmwho=');
+   
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+ 
+.main{
+padding-top: 10%;
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 600px;
+   
+    /* height: 600px; */
+    
+}
