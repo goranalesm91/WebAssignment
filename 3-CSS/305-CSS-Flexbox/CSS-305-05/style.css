@@ -1,1 +1,22 @@
 /* start your styling here  */
+ body{
+    background-color:  #00b3b3;
+ }
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.image{
+    border-radius: 50%;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    
+    gap:10px;
+    
+}
+h4,p,h1{
+    font-family: Helvetica;
+    color: darkturquoise;
+}
