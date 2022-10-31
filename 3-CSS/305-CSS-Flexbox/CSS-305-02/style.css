@@ -1,1 +1,98 @@
+
 /* start your styling here  */
+
+/* start your styling here  */
+.main-container{
+    border: 5px solid #016064;
+    background: #016064;
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    border: 5px solid red;
+    background-color: #e1264d;
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+   
+}
+.small-box{
+    border: 3px solid black;
+    width: 48px;
+    height: 33px;
+    border-radius: 7px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+    background-color: #016064;
+    color:white;
+   
+   
+}
+.big-box{
+    border: 3px solid  #121212;
+    width: 11.5vw;
+    height: 33px;
+    border-radius: 7px;
+    border-top-width: 4px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    background-color: #016064;
+    color:white;
+    margin-right: 31px;
+    padding-right: 5px;
+    
+    
+}
+
+.small-box-1{
+    border: 3px solid black;
+    width: 48px;
+    height: 33px;
+    border-radius: 7px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+    background-color: #FBB117;
+    color:white;
+}
+
+.small-box-2{
+    border: 3px solid black;
+    width: 48px;
+    height: 33px;
+    border-radius: 7px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+    background-color: #00C0F0;
+    color:white;
+}
+
+
