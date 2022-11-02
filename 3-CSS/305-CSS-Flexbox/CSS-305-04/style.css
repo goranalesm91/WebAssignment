@@ -1,1 +1,32 @@
 /* start your styling here  */
+*{
+    margin: 0px;
+    font-family: system-ui;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: blue;
+    /* height: 7vh; */
+    color: white;
+    padding: 10px;
+
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    height: 25px;
+    width: 100px;
+    background-color: white;
+    border: none;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
