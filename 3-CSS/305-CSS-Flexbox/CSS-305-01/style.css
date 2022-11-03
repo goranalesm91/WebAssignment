@@ -1,1 +1,45 @@
-/* start your styling here  */
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 900px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 100px 500px;
+    border: 1px solid blueviolet;
+}
+.header{
+    
+    background-color: rgb(238, 231, 231);
+    border: 1px solid rgb(100, 93, 106);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gallery{
+
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+    grid-template-rows: 180px 180px;
+   column-gap: 10px;
+    gap: 10px;
+    padding-left: 5px;
+    /* padding-top: 10px; */
+  
+}
+img{
+    width: 290px;
+    height:180px ;
+}
+.div1{
+    padding-top: 10px;
+
+}
