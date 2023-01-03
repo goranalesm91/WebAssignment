@@ -1,1 +1,29 @@
-/* start your styling here  */
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+.itesm-1{
+    /* grid-column: 4; */
+    /* grid-column: 4 /1 ; */
+    background-color: rgb(206, 56, 136);
+}
+.itesm-0{
+    /* width: 330px; */
+
+ background-color: white;
+}
+.itesm-2,.itesm-3,.itesm-4,.itesm-6,.itesm-7,.itesm-8,.itesm-9,.itesm-10,.itesm-11,.itesm-12,.itesm-13,.itesm-14,.itesm-15,.itesm-16,.itesm-17{
+    background-color: azure;
+}
