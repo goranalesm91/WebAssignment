@@ -1,1 +1,41 @@
 /* start your styling here  */
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 1px solid black;
+    width: 40%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: auto;
+}
+.n1{
+ font-size:45px;
+ margin-top: 2%;
+ margin-left: 3%;
+ height: 50px;
+}
+.n2{
+    padding-top: 0%;
+    margin-left: 3%;
+    font-size: 20px;
+    height:10px ;
+}
+.n3{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 70% 10% 10% 10%;
+    height: 25px;
+}
+.year{
+    color: white;
+}
+.n4{
+    padding-left: 3%;
+    height: 20px;
+    margin: 0%;
+}
