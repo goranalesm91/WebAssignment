@@ -1,1 +1,72 @@
 /* start your styling here  */
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height: 100vh;
+}
+.container{
+ display: grid;
+ grid-template-columns: auto auto auto auto auto;
+ gap: 30px;
+}
+.box{
+    width: 200px;
+    height: 100px;
+   
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 1000;
+    
+
+}
+#Success{
+    color: rgb(42, 183, 32);
+    border: 3px solid rgb(42, 183, 32);
+}
+#Success:hover{
+    color:white;
+    background-color:  rgb(42, 183, 32);
+}
+#Info{
+    color: rgb(62, 26, 194);
+    border: 3px solid rgb(62, 26, 194);
+}
+#Info:hover{
+    color:white;
+    background-color:  rgb(62, 26, 194);
+}
+
+#Default{
+    color: rgb(95, 95, 96);
+    border: 3px solid rgb(95, 95, 96);
+}
+#Default:hover{
+    color:white;
+    background-color:  rgb(95, 95, 96);
+}
+#Warning{
+    color: rgb(253, 129, 12);
+    border: 3px solid rgb(253, 129, 12);
+}
+#Warning:hover{
+    color:white;
+    background-color:  rgb(253, 129, 12);
+}
+#Danger{
+    color: rgb(246, 16, 16);
+    border: 3px solid rgb(246, 16, 16);
+}
+#Danger:hover{
+    color:white;
+    background-color:  rgb(246, 16, 16);
+}
