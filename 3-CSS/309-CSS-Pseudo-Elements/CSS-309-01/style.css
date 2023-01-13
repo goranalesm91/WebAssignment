@@ -1,4 +1,7 @@
 /* start your styling here  */
+*{
+    box-sizing: border-box;
+}
 body{
     width: 100vw;
     height: 100vh;
@@ -9,33 +12,97 @@ body{
 .container{
     border: 1px solid black;
     width: 40%;
-    height: 80%;
-    display: grid;
-    grid-template-columns: auto;
+    /* height: 80%; */
+    padding-bottom: 10px;
+    
 }
 .n1{
  font-size:45px;
  margin-top: 2%;
  margin-left: 3%;
- height: 50px;
+ height: fit-content;
 }
 .n2{
     padding-top: 0%;
     margin-left: 3%;
     font-size: 20px;
-    height:10px ;
+    height: fit-content;
 }
-.n3{
-    background-color: black;
-    display: grid;
-    grid-template-columns: 70% 10% 10% 10%;
-    height: 25px;
+.sp{
+    width: 40px;
+    height: 20px;
+    color: rgb(253, 253, 253);
+    margin-right: 25px;
+    justify-content: flex-end;
+}
+span{
+    width: 40px;
+    height: 20px;
+    color: rgb(31, 23, 23);
+    margin-right: 25px;
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
 }
 .year{
-    color: white;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: fit-content;
 }
-.n4{
-    padding-left: 3%;
-    height: 20px;
+.Assets{
+    color: rgb(52, 88, 88);
+    font-size: 20px;
+    padding-left: 20px;
+}
+.object{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(216, 212, 212);
+    height: fit-content;
+    margin: 10px;
+    padding: 2px;
+}
+
+.comments{
+    padding-left: 12px;
+}
+.itoms{
+    display: flex;
+    align-items:flex-start ;
+    width: 385px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.total{
+
+    margin: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 3px solid rgb(18, 14, 14);
+    border-bottom: double;
+    
+
+}
+
+.total1{
+    
+    margin: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 3px solid rgb(18, 14, 14);
+    
+}
+
+hr{
+    /* width: 39%; */
     margin: 0%;
+    padding-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+background-color: black;
+height: .5px;
+display: none;
 }
